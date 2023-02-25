@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+.top {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: 28px;
+  align-items: center;
+  justify-content: space-around;
+  height: 75px;
+}
+button {
+  width: 100px;
+  background-color: #282c34;
+  color: white;
+  padding: 5px;
+}
+.login-container {
+  box-shadow: 0 4px 8px 0 rgb(76, 76, 76);
+  background-color: white;
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.login-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  /* flex-grow: 5; */
+  align-items: center;
+  gap: 20px;
+}
+.login-container-right {
+  display: flex;
+  flex-grow: 3;
+}
+.login-container-left {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-color: darkslategray;
+  border: 1px solid black;
+  width: 200px;
+  color: rgb(220, 232, 223);
+}
+.link {
+  text-decoration: none;
+  color: rgb(218, 217, 217);
+}
+button {
+  cursor: pointer;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.css-1jhifk4-MuiTable-root {
+  margin-top: 0 !important;
+}
+.MuiTablePagination-toolbar {
+  margin-left: 950px !important;
+}
